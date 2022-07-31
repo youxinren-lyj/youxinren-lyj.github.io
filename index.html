@@ -682,90 +682,6 @@
 
 
   
-    <article id="post-day03-CSS第一天" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>##css第一天总结<br>###css简介<br>    CSS 是层叠样式表 ( Cascading Style Sheets ) 的简称.<br>    有时我们也会称之为 CSS 样式表或级联样式表。<br>    CSS 是也是一种标记语言<br>    CSS 主要用于设置 HTML 页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局和外观显示样式。<br>    CSS 让我们的网页更加丰富多彩，布局更加灵活自如。简单理解：CSS 可以美化 HTML , 让 HTML 更漂亮， 让页面布局更简单。<br>    CSS 最大价值: 由 HTML 专注去做结构呈现，样式交给 CSS，即 结构 ( HTML ) 与样式( CSS ) 相分离</p>
-<p><img src="/images/%E5%B0%8F%E9%B8%9F.png"></p>
-<p>###css语法规范<br>    1.使用 HTML 时，需要遵从一定的规范，CSS 也是如此。要想熟练地使用 CSS 对网页进行修饰，首先需要了解CSS 样式规则。<br>    2.CSS 规则由两个主要的部分构成：选择器以及一条或多条声明。</p>
-<p><img src="/images/css%E5%B1%9E%E6%80%A7%E8%A7%84%E5%88%99.png"></p>
-<p> 1.选择器是用于指定 CSS 样式的 HTML 标签，花括号内是对该对象设置的具体样式<br> 2.属性和属性值以“键值对”的形式出现<br> 3.属性是对指定的对象设置的样式属性，例如字体大小、文本颜色等<br> 4.属性和属性值之间用英文“:”分开<br> 5.多个“键值对”之间用英文“;”进行区分<br> 例如：<br>    所有的样式，都包含在 <style> 标签内，表示是样式表。<style> 一般写到 </head> 上方<br>    <head><br>        <style><br>            h4 {<br>                color: blue;<br>                font-size: 100px;<br>            }<br>        </style><br>    </head></p>
-<p>###css代码风格：<br>    1. 样式格式书写<br>        1.紧凑格式<br>            h3 { color: deeppink;font-size: 20px;}<br>        2.展开格式<br>         h3 {<br>            color: pink;<br>            font-size: 20px;<br>         }<br>    强烈推荐第二种格式， 因为更直观。<br>    2. 样式大小写风格<br>        1.小写格式<br>            h3 {<br>                color: pink;<br>            }<br>        2.大写格式<br>             H3 {<br>                COLOR: PINK;<br>            }<br>    强烈推荐样式选择器，属性名，属性值关键字全部使用小写字母，特殊情况除外。<br>    3. 样式空格风格<br>        1. h3 {<br>            color: pink;<br>        }<br>    属性值前面，冒号后面，保留一个空格<br>    选择器（标签）和大括号中间保留空格<br>###css选择器的作用<br>    答：选择器(选择符)就是根据不同需求把不同的标签选出来这就是选择器的作用。  简单来说，就是选择标签用的。<br>​    <img src="/images/css%E5%B1%9E%E6%80%A7%E8%A7%84%E5%88%99.png"><br>    找到所有的 h1 标签。  选择器（选对人）<br>    设置这些标签的样式，比如颜色为红色（做对事）。<br>##css基础选择器</p>
-<p>基础选择器又包括：标签选择器、类选择器、id 选择器和通配符选择器<br>###标签选择器：<br>    标签选择器（元素选择器）是指用 HTML 标签名称作为选择器，按标签名称分类，为页面中某一类标签指定统一的 CSS 样式。<br>语法：<br>    标签选择器{<br>        属性：属性值<br>        …<br>    }<br>作用：<br>    标签选择器（元素选择器）是指用 HTML 标签名称作为选择器，按标签名称分类，为页面中某一类标签指定统一的 CSS 样式。<br>###类选择器<br>    如果想要差异化选择不同的标签，单独选一个或者某几个标签，可以使用类选择器.<br>语法：<br>    .类名 {<br>        属性1: 属性值1;<br>        …<br>    }<br>    结构需要用class属性来调用  class  类的意思<br>     <div class="类名"> 变红色 </div><br>    1.如果想要差异化选择不同的标签，单独选一个或者某几个标签，可以使用类选择器。<br>    2.类选择器在 HTML 中以 class 属性表示，在 CSS 中，类选择器以一个点“.”号显示。<br>    3.类选择器使用“.”（英文点号）进行标识，后面紧跟类名（自定义，我们自己命名的）。<br>    4.可以理解为给这个标签起了一个名字，来表示。<br>    5.长名称或词组可以使用中横线来为选择器命名。<br>    6.不要使用纯数字、中文等命名，尽量使用英文字母来表示。<br>    7.命名要有意义，尽量使别人一眼就知道这个类名的目的。<br>    8.命名规范：见附件（ Web 前端开发规范手册.doc）<br>###多类名选择器<br>    我们可以给一个标签指定多个类名，从而达到更多的选择目的。 这些类名都可以选出这个标签.<br>    简单理解就是一个标签有多个名字. </p>
-<p><img src="/images/%E6%B7%98%E5%AE%9D%E7%BD%91%E5%A4%9A%E7%B1%BB%E5%90%8D.png"><br>    多类名的具体使用：<br>        1. <div class="red font20">亚瑟</div><br>    注意：<br>        1.在标签class 属性中写 多个类名<br>        2.多个类名中间必须用空格分开<br>        3.这个标签就可以分别具有这些类名的样式<br>###id选择器：<br>    id 选择器可以为标有特定 id 的 HTML 元素指定特定的样式。<br>    HTML 元素以 id 属性来设置 id 选择器，CSS 中 id 选择器以“#” 来定义。<br>    语法：<br>         #id名 {<br>            属性1: 属性值1;<br>            …<br>        }<br>        注意：id 属性只能在每个 HTML 文档中出现一次<br>###id选择器和类选择器的区别：<br>    1.类选择器（class）好比人的名字，一个人可以有多个名字，同时一个名字也可以被多个人使用。<br>    2.id 选择器好比人的身份证号码，全中国是唯一的，不得重复。<br>    3.id 选择器和类选择器最大的不同在于使用次数上。<br>    4.类选择器在修改样式中用的最多，id 选择器一般用于页面唯一性的元素上，经常和 JavaScript 搭配使用。</p>
-<p><img src="/images/id%E4%B8%8E%E7%B1%BB%E5%90%8D%E7%9A%84%E5%8C%BA%E5%88%AB.png"><br>###通配符选择器：<br>    语法：<br>        * {<br>            属性1: 属性值1;<br>            …<br>        }<br>    通配符选择器不需要调用， 自动就给所有的元素使用样式<br>    特殊情况才使用，后面讲解使用场景(以下是清除所有的元素标签的内外边距,后期讲)<br>     * {<br>            margin: 0;<br>            padding: 0;<br>        }<br>###选择器总结</p>
-<p><img src="/images/%E5%9F%BA%E7%A1%80%E9%80%89%E6%8B%A9%E5%99%A8%E6%80%BB%E7%BB%93.png"></p>
-<p>##css字体属性:<br>###字体大小：<br>    CSS 使用 font-size 属性定义字体大小。<br>语法：<br>     p {<br>        font-size: 20px;<br>    }<br>    1.px（像素）大小是我们网页的最常用的单位<br>    2.谷歌浏览器默认的文字大小为16px<br>    3.不同浏览器可能默认显示的字号大小不一致，我们尽量给一个明确值大小，不要默认大小<br>    4.可以给 body 指定整个页面文字的大小<br>###字体粗细：<br>    CSS 使用 font-weight 属性设置文本字体的粗细。<br>语法：<br>    p {<br>        font-weight: bold;<br>    }</p>
-<p><img src="/images/%E5%AD%97%E4%BD%93%E7%B2%97%E7%BB%86.png"></p>
-<p>1.学会让加粗标签（比如 h 和 strong 等) 不加粗，或者其他标签加粗<br>2.实际开发时，我们更喜欢用数字表示粗细<br>###字体样式：<br>    CSS 使用 font-style 属性设置文本的风格。<br>语法：<br>    p {<br>        font-style: normal;<br>    }</p>
-<p><img src="/images/%E6%96%87%E5%AD%97%E5%80%BE%E6%96%9C.png"></p>
-<p>###字体的综合写法</p>
-<p>字体属性可以把以上文字样式综合来写, 这样可以更节约代码:</p>
-<p> body {   font: font-style  font-weight  font-size&#x2F;line-height  font-family;}</p>
-<p>使用 font 属性时，必须按上面语法格式中的顺序书写，不能更换顺序，并且各个属性间以空格隔开 不需要设置的属性可以省略（取默认值），但必须保留 font-size 和 font-family 属性，否则 font 属性将不起作用</p>
-<p>###字体总结：</p>
-<p><img src="/images/%E5%AD%97%E4%BD%93%E6%80%BB%E7%BB%93.png"></p>
-<p>##css文本属性：<br>###文本颜色：<br>    color 属性用于定义文本的颜色。<br>语法：<br>    div {<br>        color: red;<br>    }</p>
-<p><img src="/images/%E9%A2%9C%E8%89%B2%E5%80%BC.png"></p>
-<p>开发中最常用的是十六进制<br>###文本对齐：<br>text-align 属性用于设置元素内文本内容的水平对齐方式。<br>语法：<br>    div {<br>        text-align: center;<br>    }</p>
-<p><img src="/images/%E5%AF%B9%E9%BD%90%E6%96%87%E6%9C%AC.png"></p>
-<p>###修饰文本：<br>    语法：<br>     div {<br>        text-decoration：underline；<br>     }</p>
-<p><img src="/images/%E4%BF%AE%E9%A5%B0%E6%96%87%E6%9C%AC.png"></p>
-<p>重点记住如何添加下划线 ? 如何删除下划线 ? 其余了解即可.</p>
-<p>###文本缩进<br>语法：<br>    div {<br>        text-indent：20px；<br>    }<br>    div {<br>        text-indent：2em；<br>    }</p>
-<p><img src="/images/%E6%96%87%E6%9C%AC%E7%BC%A9%E8%BF%9B.png"></p>
-<pre><code>em 是一个相对单位，就是当前元素（font-size) 1 个文字的大小, 如果当前元素没有设置大小，则会按照父元素的 1 个文字大小。
-</code></pre>
-<p>###行间距：<br>    line-height 属性用于设置行间的距离（行高）。可以控制文字行与行之间的距离<br>语法：<br>    p {<br>        line-height: 26px;<br>    }<br>    行高的文本分为 上间距  文本高度 下间距 &#x3D; 行间距<br>##css样式表：<br>    按照 CSS 样式书写的位置（或者引入的方式），CSS 样式表可以分为三大类：<br>###行内样式表（行内式）<br>        行内样式表（内联样式表）是在元素标签内部的 style 属性中设定 CSS 样式。适合于修改简单样式.<br>        语法：<br>            <div style="color: red; font-size: 12px;">青春不常在，抓紧谈恋爱</div><br>        1.style 其实就是标签的属性<br>        在双引号中间，写法要符合 CSS 规范<br>        2.可以控制当前的标签设置样式<br>        3.由于书写繁琐，并且没有体现出结构与样式相分离的思想，所以不推荐大量使用，只有对当前元素添加简单样式的时候，可以考虑使用<br>        4.使用行内样式表设定 CSS，通常也被称为行内式引入</p>
-<p>###内部样式表（嵌入式）<br>        内部样式表（内嵌样式表）是写到html页面内部. 是将所有的 CSS 代码抽取出来，单独放到一个 <style> 标签中<br>        语法：<br>            <style><br>                div {<br>                color: red;<br>                font-size: 12px;<br>                }<br>            </style><br>        1.<style> 标签理论上可以放在 HTML 文档的任何地方，但一般会放在文档的<head>标签中<br>        2.通过此种方式，可以方便控制当前整个页面中的元素样式设置<br>        3.代码结构清晰，但是并没有实现结构与样式完全分离<br>        4.使用内部样式表设定 CSS，通常也被称为嵌入式引入，这种方式是我们练习时常用的方式<br>###外部样式表（链接式）<br>    实际开发都是外部样式表. 适合于样式比较多的情况. 核心是:样式单独写到CSS 文件中，之后把CSS文件引入到 HTML 页面中使用.<br>    引入外部样式表分为两步：<br>    1. 新建一个后缀名为 .css 的样式文件，把所有 CSS 代码都放入此文件中。<br>    2. 在 HTML 页面中，使用<link> 标签引入这个文件。<br>    语法：<br>        <link rel="stylesheet"  href="css文件路径"></p>
-<p><img src="/images/css%E5%BC%95%E5%85%A5%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93.png"></p>
-<p>##Chrome调试工具：</p>
-<p><img src="/images/%E8%B0%B7%E6%AD%8C%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7.png"></p>
-<p> 1.Ctrl+滚轮 可以放大开发者工具代码大小。<br> 2.左边是 HTML 元素结构，右边是 CSS 样式。<br> 3.右边 CSS 样式可以改动数值（左右箭头或者直接输入）和查看颜色。<br> 4.Ctrl + 0 复原浏览器大小。<br> 5.如果点击元素，发现右侧没有样式引入，极有可能是类名或者样式引入错误。<br> 6.如果有样式，但是样式前面有黄色叹号提示，则是样式属性书写错误。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/07/31/day03-CSS%E7%AC%AC%E4%B8%80%E5%A4%A9/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
     <article id="post-day02-HTML第二天" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -887,6 +803,90 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2022/07/31/day02-HTML%E7%AC%AC%E4%BA%8C%E5%A4%A9/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-day03-CSS第一天" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>##css第一天总结<br>###css简介<br>    CSS 是层叠样式表 ( Cascading Style Sheets ) 的简称.<br>    有时我们也会称之为 CSS 样式表或级联样式表。<br>    CSS 是也是一种标记语言<br>    CSS 主要用于设置 HTML 页面中的文本内容（字体、大小、对齐方式等）、图片的外形（宽高、边框样式、边距等）以及版面的布局和外观显示样式。<br>    CSS 让我们的网页更加丰富多彩，布局更加灵活自如。简单理解：CSS 可以美化 HTML , 让 HTML 更漂亮， 让页面布局更简单。<br>    CSS 最大价值: 由 HTML 专注去做结构呈现，样式交给 CSS，即 结构 ( HTML ) 与样式( CSS ) 相分离</p>
+<p><img src="/images/%E5%B0%8F%E9%B8%9F.png"></p>
+<p>###css语法规范<br>    1.使用 HTML 时，需要遵从一定的规范，CSS 也是如此。要想熟练地使用 CSS 对网页进行修饰，首先需要了解CSS 样式规则。<br>    2.CSS 规则由两个主要的部分构成：选择器以及一条或多条声明。</p>
+<p><img src="/images/css%E5%B1%9E%E6%80%A7%E8%A7%84%E5%88%99.png"></p>
+<p> 1.选择器是用于指定 CSS 样式的 HTML 标签，花括号内是对该对象设置的具体样式<br> 2.属性和属性值以“键值对”的形式出现<br> 3.属性是对指定的对象设置的样式属性，例如字体大小、文本颜色等<br> 4.属性和属性值之间用英文“:”分开<br> 5.多个“键值对”之间用英文“;”进行区分<br> 例如：<br>    所有的样式，都包含在 <style> 标签内，表示是样式表。<style> 一般写到 </head> 上方<br>    <head><br>        <style><br>            h4 {<br>                color: blue;<br>                font-size: 100px;<br>            }<br>        </style><br>    </head></p>
+<p>###css代码风格：<br>    1. 样式格式书写<br>        1.紧凑格式<br>            h3 { color: deeppink;font-size: 20px;}<br>        2.展开格式<br>         h3 {<br>            color: pink;<br>            font-size: 20px;<br>         }<br>    强烈推荐第二种格式， 因为更直观。<br>    2. 样式大小写风格<br>        1.小写格式<br>            h3 {<br>                color: pink;<br>            }<br>        2.大写格式<br>             H3 {<br>                COLOR: PINK;<br>            }<br>    强烈推荐样式选择器，属性名，属性值关键字全部使用小写字母，特殊情况除外。<br>    3. 样式空格风格<br>        1. h3 {<br>            color: pink;<br>        }<br>    属性值前面，冒号后面，保留一个空格<br>    选择器（标签）和大括号中间保留空格<br>###css选择器的作用<br>    答：选择器(选择符)就是根据不同需求把不同的标签选出来这就是选择器的作用。  简单来说，就是选择标签用的。<br>​    <img src="/images/css%E5%B1%9E%E6%80%A7%E8%A7%84%E5%88%99.png"><br>    找到所有的 h1 标签。  选择器（选对人）<br>    设置这些标签的样式，比如颜色为红色（做对事）。<br>##css基础选择器</p>
+<p>基础选择器又包括：标签选择器、类选择器、id 选择器和通配符选择器<br>###标签选择器：<br>    标签选择器（元素选择器）是指用 HTML 标签名称作为选择器，按标签名称分类，为页面中某一类标签指定统一的 CSS 样式。<br>语法：<br>    标签选择器{<br>        属性：属性值<br>        …<br>    }<br>作用：<br>    标签选择器（元素选择器）是指用 HTML 标签名称作为选择器，按标签名称分类，为页面中某一类标签指定统一的 CSS 样式。<br>###类选择器<br>    如果想要差异化选择不同的标签，单独选一个或者某几个标签，可以使用类选择器.<br>语法：<br>    .类名 {<br>        属性1: 属性值1;<br>        …<br>    }<br>    结构需要用class属性来调用  class  类的意思<br>     <div class="类名"> 变红色 </div><br>    1.如果想要差异化选择不同的标签，单独选一个或者某几个标签，可以使用类选择器。<br>    2.类选择器在 HTML 中以 class 属性表示，在 CSS 中，类选择器以一个点“.”号显示。<br>    3.类选择器使用“.”（英文点号）进行标识，后面紧跟类名（自定义，我们自己命名的）。<br>    4.可以理解为给这个标签起了一个名字，来表示。<br>    5.长名称或词组可以使用中横线来为选择器命名。<br>    6.不要使用纯数字、中文等命名，尽量使用英文字母来表示。<br>    7.命名要有意义，尽量使别人一眼就知道这个类名的目的。<br>    8.命名规范：见附件（ Web 前端开发规范手册.doc）<br>###多类名选择器<br>    我们可以给一个标签指定多个类名，从而达到更多的选择目的。 这些类名都可以选出这个标签.<br>    简单理解就是一个标签有多个名字. </p>
+<p><img src="/images/%E6%B7%98%E5%AE%9D%E7%BD%91%E5%A4%9A%E7%B1%BB%E5%90%8D.png"><br>    多类名的具体使用：<br>        1. <div class="red font20">亚瑟</div><br>    注意：<br>        1.在标签class 属性中写 多个类名<br>        2.多个类名中间必须用空格分开<br>        3.这个标签就可以分别具有这些类名的样式<br>###id选择器：<br>    id 选择器可以为标有特定 id 的 HTML 元素指定特定的样式。<br>    HTML 元素以 id 属性来设置 id 选择器，CSS 中 id 选择器以“#” 来定义。<br>    语法：<br>         #id名 {<br>            属性1: 属性值1;<br>            …<br>        }<br>        注意：id 属性只能在每个 HTML 文档中出现一次<br>###id选择器和类选择器的区别：<br>    1.类选择器（class）好比人的名字，一个人可以有多个名字，同时一个名字也可以被多个人使用。<br>    2.id 选择器好比人的身份证号码，全中国是唯一的，不得重复。<br>    3.id 选择器和类选择器最大的不同在于使用次数上。<br>    4.类选择器在修改样式中用的最多，id 选择器一般用于页面唯一性的元素上，经常和 JavaScript 搭配使用。</p>
+<p><img src="/images/id%E4%B8%8E%E7%B1%BB%E5%90%8D%E7%9A%84%E5%8C%BA%E5%88%AB.png"><br>###通配符选择器：<br>    语法：<br>        * {<br>            属性1: 属性值1;<br>            …<br>        }<br>    通配符选择器不需要调用， 自动就给所有的元素使用样式<br>    特殊情况才使用，后面讲解使用场景(以下是清除所有的元素标签的内外边距,后期讲)<br>     * {<br>            margin: 0;<br>            padding: 0;<br>        }<br>###选择器总结</p>
+<p><img src="/images/%E5%9F%BA%E7%A1%80%E9%80%89%E6%8B%A9%E5%99%A8%E6%80%BB%E7%BB%93.png"></p>
+<p>##css字体属性:<br>###字体大小：<br>    CSS 使用 font-size 属性定义字体大小。<br>语法：<br>     p {<br>        font-size: 20px;<br>    }<br>    1.px（像素）大小是我们网页的最常用的单位<br>    2.谷歌浏览器默认的文字大小为16px<br>    3.不同浏览器可能默认显示的字号大小不一致，我们尽量给一个明确值大小，不要默认大小<br>    4.可以给 body 指定整个页面文字的大小<br>###字体粗细：<br>    CSS 使用 font-weight 属性设置文本字体的粗细。<br>语法：<br>    p {<br>        font-weight: bold;<br>    }</p>
+<p><img src="/images/%E5%AD%97%E4%BD%93%E7%B2%97%E7%BB%86.png"></p>
+<p>1.学会让加粗标签（比如 h 和 strong 等) 不加粗，或者其他标签加粗<br>2.实际开发时，我们更喜欢用数字表示粗细<br>###字体样式：<br>    CSS 使用 font-style 属性设置文本的风格。<br>语法：<br>    p {<br>        font-style: normal;<br>    }</p>
+<p><img src="/images/%E6%96%87%E5%AD%97%E5%80%BE%E6%96%9C.png"></p>
+<p>###字体的综合写法</p>
+<p>字体属性可以把以上文字样式综合来写, 这样可以更节约代码:</p>
+<p> body {   font: font-style  font-weight  font-size&#x2F;line-height  font-family;}</p>
+<p>使用 font 属性时，必须按上面语法格式中的顺序书写，不能更换顺序，并且各个属性间以空格隔开 不需要设置的属性可以省略（取默认值），但必须保留 font-size 和 font-family 属性，否则 font 属性将不起作用</p>
+<p>###字体总结：</p>
+<p><img src="/images/%E5%AD%97%E4%BD%93%E6%80%BB%E7%BB%93.png"></p>
+<p>##css文本属性：<br>###文本颜色：<br>    color 属性用于定义文本的颜色。<br>语法：<br>    div {<br>        color: red;<br>    }</p>
+<p><img src="/images/%E9%A2%9C%E8%89%B2%E5%80%BC.png"></p>
+<p>开发中最常用的是十六进制<br>###文本对齐：<br>text-align 属性用于设置元素内文本内容的水平对齐方式。<br>语法：<br>    div {<br>        text-align: center;<br>    }</p>
+<p><img src="/images/%E5%AF%B9%E9%BD%90%E6%96%87%E6%9C%AC.png"></p>
+<p>###修饰文本：<br>    语法：<br>     div {<br>        text-decoration：underline；<br>     }</p>
+<p><img src="/images/%E4%BF%AE%E9%A5%B0%E6%96%87%E6%9C%AC.png"></p>
+<p>重点记住如何添加下划线 ? 如何删除下划线 ? 其余了解即可.</p>
+<p>###文本缩进<br>语法：<br>    div {<br>        text-indent：20px；<br>    }<br>    div {<br>        text-indent：2em；<br>    }</p>
+<p><img src="/images/%E6%96%87%E6%9C%AC%E7%BC%A9%E8%BF%9B.png"></p>
+<pre><code>em 是一个相对单位，就是当前元素（font-size) 1 个文字的大小, 如果当前元素没有设置大小，则会按照父元素的 1 个文字大小。
+</code></pre>
+<p>###行间距：<br>    line-height 属性用于设置行间的距离（行高）。可以控制文字行与行之间的距离<br>语法：<br>    p {<br>        line-height: 26px;<br>    }<br>    行高的文本分为 上间距  文本高度 下间距 &#x3D; 行间距<br>##css样式表：<br>    按照 CSS 样式书写的位置（或者引入的方式），CSS 样式表可以分为三大类：<br>###行内样式表（行内式）<br>        行内样式表（内联样式表）是在元素标签内部的 style 属性中设定 CSS 样式。适合于修改简单样式.<br>        语法：<br>            <div style="color: red; font-size: 12px;">青春不常在，抓紧谈恋爱</div><br>        1.style 其实就是标签的属性<br>        在双引号中间，写法要符合 CSS 规范<br>        2.可以控制当前的标签设置样式<br>        3.由于书写繁琐，并且没有体现出结构与样式相分离的思想，所以不推荐大量使用，只有对当前元素添加简单样式的时候，可以考虑使用<br>        4.使用行内样式表设定 CSS，通常也被称为行内式引入</p>
+<p>###内部样式表（嵌入式）<br>        内部样式表（内嵌样式表）是写到html页面内部. 是将所有的 CSS 代码抽取出来，单独放到一个 <style> 标签中<br>        语法：<br>            <style><br>                div {<br>                color: red;<br>                font-size: 12px;<br>                }<br>            </style><br>        1.<style> 标签理论上可以放在 HTML 文档的任何地方，但一般会放在文档的<head>标签中<br>        2.通过此种方式，可以方便控制当前整个页面中的元素样式设置<br>        3.代码结构清晰，但是并没有实现结构与样式完全分离<br>        4.使用内部样式表设定 CSS，通常也被称为嵌入式引入，这种方式是我们练习时常用的方式<br>###外部样式表（链接式）<br>    实际开发都是外部样式表. 适合于样式比较多的情况. 核心是:样式单独写到CSS 文件中，之后把CSS文件引入到 HTML 页面中使用.<br>    引入外部样式表分为两步：<br>    1. 新建一个后缀名为 .css 的样式文件，把所有 CSS 代码都放入此文件中。<br>    2. 在 HTML 页面中，使用<link> 标签引入这个文件。<br>    语法：<br>        <link rel="stylesheet"  href="css文件路径"></p>
+<p><img src="/images/css%E5%BC%95%E5%85%A5%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93.png"></p>
+<p>##Chrome调试工具：</p>
+<p><img src="/images/%E8%B0%B7%E6%AD%8C%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7.png"></p>
+<p> 1.Ctrl+滚轮 可以放大开发者工具代码大小。<br> 2.左边是 HTML 元素结构，右边是 CSS 样式。<br> 3.右边 CSS 样式可以改动数值（左右箭头或者直接输入）和查看颜色。<br> 4.Ctrl + 0 复原浏览器大小。<br> 5.如果点击元素，发现右侧没有样式引入，极有可能是类名或者样式引入错误。<br> 6.如果有样式，但是样式前面有黄色叹号提示，则是样式属性书写错误。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2022/07/31/day03-CSS%E7%AC%AC%E4%B8%80%E5%A4%A9/">展开全文 >></a>
         </p>
       
 
