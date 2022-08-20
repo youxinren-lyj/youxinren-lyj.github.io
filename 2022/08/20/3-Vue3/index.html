@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>vue3 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一、简介2020年9月18日，Vue.js发布3.0版本，代号：One Piece（海贼王） github.com&#x2F;vuejs&#x2F;vue-n… 1.性能的提升 打包大小减少41% 初次渲染快55%, 更新渲染快133% 内存减少54%  2.源码的升级 使用Proxy代替defineProperty实现响应式 重写虚拟DOM的实现和Tree-Shaking  3.拥抱Typ">
+  <meta name="description" content="一、Vue3简介">
 <meta property="og:type" content="article">
 <meta property="og:title" content="vue3">
 <meta property="og:url" content="http://example.com/2022/08/20/3-Vue3/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="一、简介2020年9月18日，Vue.js发布3.0版本，代号：One Piece（海贼王） github.com&#x2F;vuejs&#x2F;vue-n… 1.性能的提升 打包大小减少41% 初次渲染快55%, 更新渲染快133% 内存减少54%  2.源码的升级 使用Proxy代替defineProperty实现响应式 重写虚拟DOM的实现和Tree-Shaking  3.拥抱Typ">
+<meta property="og:description" content="一、Vue3简介">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/af5f8d4493f3423087d6b9e6c5e60fa1~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
 <meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c57d4d695fe64014b78610ff2a5cd2b6~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
 <meta property="article:published_time" content="2022-08-20T15:01:44.349Z">
-<meta property="article:modified_time" content="2022-08-20T15:00:06.615Z">
+<meta property="article:modified_time" content="2022-08-20T15:34:04.623Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="vue">
 <meta name="twitter:card" content="summary">
@@ -174,9 +174,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-         <span id="more"></span>
+        <h1 id="一、Vue3简介"><a href="#一、Vue3简介" class="headerlink" title="一、Vue3简介"></a>一、Vue3简介</h1> <span id="more"></span>
 
-<h1 id="一、简介"><a href="#一、简介" class="headerlink" title="一、简介"></a>一、简介</h1><p>2020年9月18日，Vue.js发布3.0版本，代号：One Piece（海贼王）</p>
+<p>2020年9月18日，Vue.js发布3.0版本，代号：One Piece（海贼王）</p>
 <p><a href="https://link.juejin.cn/?target=https://github.com/vuejs/vue-next/releases/tag/v3.0.0">github.com&#x2F;vuejs&#x2F;vue-n…</a></p>
 <h3 id="1-性能的提升"><a href="#1-性能的提升" class="headerlink" title="1.性能的提升"></a>1.性能的提升</h3><ul>
 <li>打包大小减少<strong>41%</strong></li>
@@ -397,7 +397,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">一、简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%80%A7%E8%83%BD%E7%9A%84%E6%8F%90%E5%8D%87"><span class="toc-number">1.0.1.</span> <span class="toc-text">1.性能的提升</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%BA%90%E7%A0%81%E7%9A%84%E5%8D%87%E7%BA%A7"><span class="toc-number">1.0.2.</span> <span class="toc-text">2.源码的升级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%8B%A5%E6%8A%B1TypeScript"><span class="toc-number">1.0.3.</span> <span class="toc-text">3.拥抱TypeScript</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%96%B0%E7%9A%84%E7%89%B9%E6%80%A7"><span class="toc-number">1.0.4.</span> <span class="toc-text">4.新的特性</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAVue%E9%A1%B9%E7%9B%AE"><span class="toc-number">2.</span> <span class="toc-text">二、创建一个Vue项目</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%BD%BF%E7%94%A8-vue-cli-%E5%88%9B%E5%BB%BA"><span class="toc-number">2.1.</span> <span class="toc-text">1. 使用 vue-cli 创建</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8-vite-%E5%88%9B%E5%BB%BA"><span class="toc-number">2.2.</span> <span class="toc-text">2. 使用 vite 创建</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%88%86%E6%9E%90%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95"><span class="toc-number">3.</span> <span class="toc-text">三、分析文件目录</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#main-js"><span class="toc-number">3.1.</span> <span class="toc-text">main.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#App-vue"><span class="toc-number">3.2.</span> <span class="toc-text">App.vue</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81Vue3%E7%AE%80%E4%BB%8B"><span class="toc-number">1.</span> <span class="toc-text">一、Vue3简介</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%80%A7%E8%83%BD%E7%9A%84%E6%8F%90%E5%8D%87"><span class="toc-number">1.0.1.</span> <span class="toc-text">1.性能的提升</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%BA%90%E7%A0%81%E7%9A%84%E5%8D%87%E7%BA%A7"><span class="toc-number">1.0.2.</span> <span class="toc-text">2.源码的升级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%8B%A5%E6%8A%B1TypeScript"><span class="toc-number">1.0.3.</span> <span class="toc-text">3.拥抱TypeScript</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%96%B0%E7%9A%84%E7%89%B9%E6%80%A7"><span class="toc-number">1.0.4.</span> <span class="toc-text">4.新的特性</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AAVue%E9%A1%B9%E7%9B%AE"><span class="toc-number">2.</span> <span class="toc-text">二、创建一个Vue项目</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%BD%BF%E7%94%A8-vue-cli-%E5%88%9B%E5%BB%BA"><span class="toc-number">2.1.</span> <span class="toc-text">1. 使用 vue-cli 创建</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8-vite-%E5%88%9B%E5%BB%BA"><span class="toc-number">2.2.</span> <span class="toc-text">2. 使用 vite 创建</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%88%86%E6%9E%90%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95"><span class="toc-number">3.</span> <span class="toc-text">三、分析文件目录</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#main-js"><span class="toc-number">3.1.</span> <span class="toc-text">main.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#App-vue"><span class="toc-number">3.2.</span> <span class="toc-text">App.vue</span></a></li></ol></li></ol>
                     </div>
                 </span>
             </div>
