@@ -8,12 +8,12 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>vue基础用法&amp;基础原理整理 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1. vue基础知识和原理1.1 初识Vue 想让Vue工作，就必须创建一个Vue实例，且要传入一个配置对象 demo容器里的代码依然符合html规范，只不过混入了一些特殊的Vue语法 demo容器里的代码被称为【Vue模板】 Vue实例和容器是一一对应的 真实开发中只有一个Vue实例，并且会配合着组件一起使用 &amp;#123;&amp;#123;xxx&amp;#125;&amp;#125;是Vue的语法：插值表达式，&amp;#">
+  <meta name="description" content="1. vue基础知识和原理1.1 初识Vue 想让Vue工作，就必须创建一个Vue实例，且要传入一个配置对象 demo容器里的代码依然符合html规范，只不过混入了一些特殊的Vue语法 demo容器里的代码被称为【Vue模板】 Vue实例和容器是一一对应的 真实开发中只有一个Vue实例，并且会配合着组件一起使用 &amp;#123;&amp;#123;xxx&amp;#125;&amp;#125;是Vue的语法：插值表达式">
 <meta property="og:type" content="article">
 <meta property="og:title" content="vue基础用法&amp;基础原理整理">
-<meta property="og:url" content="http://example.com/2022/08/20/vue%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95&%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86%E6%95%B4%E7%90%86/index.html">
+<meta property="og:url" content="http://example.com/2022/08/20/1-Vue%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95&%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86%E6%95%B4%E7%90%86/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="1. vue基础知识和原理1.1 初识Vue 想让Vue工作，就必须创建一个Vue实例，且要传入一个配置对象 demo容器里的代码依然符合html规范，只不过混入了一些特殊的Vue语法 demo容器里的代码被称为【Vue模板】 Vue实例和容器是一一对应的 真实开发中只有一个Vue实例，并且会配合着组件一起使用 &amp;#123;&amp;#123;xxx&amp;#125;&amp;#125;是Vue的语法：插值表达式，&amp;#">
+<meta property="og:description" content="1. vue基础知识和原理1.1 初识Vue 想让Vue工作，就必须创建一个Vue实例，且要传入一个配置对象 demo容器里的代码依然符合html规范，只不过混入了一些特殊的Vue语法 demo容器里的代码被称为【Vue模板】 Vue实例和容器是一一对应的 真实开发中只有一个Vue实例，并且会配合着组件一起使用 &amp;#123;&amp;#123;xxx&amp;#125;&amp;#125;是Vue的语法：插值表达式">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/09b4bf67bb7843388fecd7da1572901f.png">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/ea14682958924e37bf950f3960ee998e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qC86Zu354uQ5oCd,size_20,color_FFFFFF,t_70,g_se,x_16">
@@ -64,8 +64,8 @@
 <meta property="og:image" content="https://img-blog.csdnimg.cn/d8b1f996e81a48a2a33a41fce71c25d5.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qC86Zu354uQ5oCd,size_20,color_FFFFFF,t_70,g_se,x_16">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/a1180709cc80417c9266343e7ec1637e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qC86Zu354uQ5oCd,size_20,color_FFFFFF,t_70,g_se,x_16">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/f0f05b4791944844a8ea9d496e2710f9.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qC86Zu354uQ5oCd,size_20,color_FFFFFF,t_70,g_se,x_16">
-<meta property="article:published_time" content="2022-08-20T14:13:42.509Z">
-<meta property="article:modified_time" content="2022-08-20T14:40:01.447Z">
+<meta property="article:published_time" content="2022-08-20T15:01:45.991Z">
+<meta property="article:modified_time" content="2022-08-20T15:00:18.363Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="vue">
 <meta name="twitter:card" content="summary">
@@ -201,7 +201,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-vue基础用法&amp;基础原理整理" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-1-Vue基础用法&amp;基础原理整理" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -213,15 +213,17 @@
   
 
         
-        <a href="/2022/08/20/vue%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95&%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86%E6%95%B4%E7%90%86/" class="archive-article-date">
-  	<time datetime="2022-08-20T14:13:42.509Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-20</time>
+        <a href="/2022/08/20/1-Vue%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95&%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86%E6%95%B4%E7%90%86/" class="archive-article-date">
+  	<time datetime="2022-08-20T15:01:45.991Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-20</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="1-vue基础知识和原理"><a href="#1-vue基础知识和原理" class="headerlink" title="1. vue基础知识和原理"></a>1. vue基础知识和原理</h1><h2 id="1-1-初识Vue"><a href="#1-1-初识Vue" class="headerlink" title="1.1 初识Vue"></a>1.1 初识Vue</h2><ul>
+         <span id="more"></span>
+
+<h1 id="1-vue基础知识和原理"><a href="#1-vue基础知识和原理" class="headerlink" title="1. vue基础知识和原理"></a>1. vue基础知识和原理</h1><h2 id="1-1-初识Vue"><a href="#1-1-初识Vue" class="headerlink" title="1.1 初识Vue"></a>1.1 初识Vue</h2><ul>
 <li>想让Vue工作，就必须创建一个Vue实例，且要传入一个配置对象</li>
 <li>demo容器里的代码依然符合html规范，只不过混入了一些特殊的Vue语法</li>
 <li>demo容器里的代码被称为【Vue模板】</li>
@@ -1980,7 +1982,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/08/20/vue%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95&%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86%E6%95%B4%E7%90%86/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/08/20/1-Vue%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95&%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86%E6%95%B4%E7%90%86/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -1994,17 +1996,8 @@
   
 <nav id="article-nav">
   
-    <a href="/2022/08/20/%E5%B0%9A%E5%93%81%E6%B1%87%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          尚品汇项目笔记
-        
-      </div>
-    </a>
   
-  
-    <a href="/2022/08/20/vue3/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2022/08/20/3-Vue3/" id="article-nav-older" class="article-nav-link-wrap">
       <div class="article-nav-title">vue3</div>
       <i class="icon-circle-right"></i>
     </a>
