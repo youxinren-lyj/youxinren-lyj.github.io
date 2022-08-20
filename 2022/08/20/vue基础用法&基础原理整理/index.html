@@ -6,11 +6,11 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hexo</title>
+  <title>vue基础用法&amp;基础原理整理 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="vue基础用法&amp;基础原理整理1. vue基础知识和原理1.1 初识Vue 想让Vue工作，就必须创建一个Vue实例，且要传入一个配置对象 demo容器里的代码依然符合html规范，只不过混入了一些特殊的Vue语法 demo容器里的代码被称为【Vue模板】 Vue实例和容器是一一对应的 真实开发中只有一个Vue实例，并且会配合着组件一起使用 &amp;#123;&amp;#123;xxx&amp;#125;&amp;#12">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="vue基础用法&amp;基础原理整理">
 <meta property="og:url" content="http://example.com/2022/08/20/vue%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95&%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86%E6%95%B4%E7%90%86/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="vue基础用法&amp;基础原理整理1. vue基础知识和原理1.1 初识Vue 想让Vue工作，就必须创建一个Vue实例，且要传入一个配置对象 demo容器里的代码依然符合html规范，只不过混入了一些特殊的Vue语法 demo容器里的代码被称为【Vue模板】 Vue实例和容器是一一对应的 真实开发中只有一个Vue实例，并且会配合着组件一起使用 &amp;#123;&amp;#123;xxx&amp;#125;&amp;#12">
@@ -65,8 +65,9 @@
 <meta property="og:image" content="https://img-blog.csdnimg.cn/a1180709cc80417c9266343e7ec1637e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qC86Zu354uQ5oCd,size_20,color_FFFFFF,t_70,g_se,x_16">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/f0f05b4791944844a8ea9d496e2710f9.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5qC86Zu354uQ5oCd,size_20,color_FFFFFF,t_70,g_se,x_16">
 <meta property="article:published_time" content="2022-08-20T14:13:42.509Z">
-<meta property="article:modified_time" content="2022-08-20T14:13:35.637Z">
+<meta property="article:modified_time" content="2022-08-20T14:37:05.105Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="vue">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://img-blog.csdnimg.cn/09b4bf67bb7843388fecd7da1572901f.png">
   
@@ -202,6 +203,21 @@
           <div id="js-content" class="content-ll">
             <article id="post-vue基础用法&amp;基础原理整理" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      vue基础用法&amp;基础原理整理
+    </h1>
+  
+
+        
+        <a href="/2022/08/20/vue%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95&%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86%E6%95%B4%E7%90%86/" class="archive-article-date">
+  	<time datetime="2022-08-20T14:13:42.509Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-20</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -1903,6 +1919,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">vue</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -2108,6 +2135,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">vue</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
