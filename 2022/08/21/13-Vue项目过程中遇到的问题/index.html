@@ -6,41 +6,26 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>问题汇总——Hexo博客 | Hexo</title>
+  <title>问题汇总——Vue项目 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Hexo博客搭建过程及遇到的问题">
+  <meta name="description" content="Vue项目过程中遇到的问题">
 <meta property="og:type" content="article">
-<meta property="og:title" content="问题汇总——Hexo博客">
-<meta property="og:url" content="http://example.com/2022/08/21/12-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/index.html">
+<meta property="og:title" content="问题汇总——Vue项目">
+<meta property="og:url" content="http://example.com/2022/08/21/13-Vue%E9%A1%B9%E7%9B%AE%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Hexo博客搭建过程及遇到的问题">
+<meta property="og:description" content="Vue项目过程中遇到的问题">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/ca3573693ec7d4b8f30b71b7f22a2003a9bac6e8.png@942w_675h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/cbcef276877a15fc1108cedf88d63ba5fd25a81f.png@756w_329h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/f8fb9a4ff9e0410bdbb1e4b89f34208ae2c6ecfd.jpg@942w_407h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/cae65261511e4bf7e4ea0e7838a5bfc5f3560d20.png@942w_509h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/a7f5fc12b8e28b751c024e1d0f760de338e32d81.png@942w_290h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/f8d1a66cf00c3dfabb1bff69c531398ef0a33679.png@942w_56h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/f920d62b355a1a62bb9f6f37571edfb936fc03b2.png@815w_53h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/9055b0cce324c115ecb9128c391d6239cb4ccec0.png@942w_153h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/9cc1855324f9f968aa56d8a94a913475b3bc1d70.png@942w_437h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/dc6cf704d5d468a2f02dcd044fc4a0b4daf78960.png@942w_507h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/075cf0ecdb17fd480e0a705242cf9b6cf28510ee.png@942w_225h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/b122a24f4e848f12e98c105e30e57fdc770d6690.png@942w_251h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/426b2c5a296d531dcae228493e6d63868179f132.png@942w_353h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/312648b8eabe0b58395774e2742277f9690a94c6.png@942w_288h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/9545db7dea8f6d676b15ebe2d5542fec221d22ca.png@942w_191h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/0d70f8f2da7bf1cb8d0bf4f12b3b9fec5e932a73.png@942w_113h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/0af1d0ecbd93998845cc275f669efdb2fa30ee8e.png@942w_1037h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/ad0a41f6a4e3350f6ade4d81c049a8e6974e8d15.png@942w_1184h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/564b63dd8bfd17539a3b0d7f1992e27b6c5ee77d.png@942w_263h_progressive.webp">
-<meta property="og:image" content="https://i0.hdslb.com/bfs/article/a07fded57b1cdeceecc21d68c3703b2cb002f088.png@942w_108h_progressive.webp">
-<meta property="article:published_time" content="2022-08-21T08:42:43.826Z">
-<meta property="article:modified_time" content="2022-08-21T08:25:01.181Z">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200928161722845.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200928161838818.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x6YzI2NDQ0ODE3ODk=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200928162031841.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200928162545589.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x6YzI2NDQ0ODE3ODk=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200928162629793.png">
+<meta property="article:published_time" content="2022-08-21T10:49:25.960Z">
+<meta property="article:modified_time" content="2022-08-21T10:48:40.727Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="vue">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i0.hdslb.com/bfs/article/ca3573693ec7d4b8f30b71b7f22a2003a9bac6e8.png@942w_675h_progressive.webp">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200928161722845.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -158,253 +143,100 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-12-博客搭建过程" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-13-Vue项目过程中遇到的问题" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      问题汇总——Hexo博客
+      问题汇总——Vue项目
     </h1>
   
 
         
-        <a href="/2022/08/21/12-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/" class="archive-article-date">
-  	<time datetime="2022-08-21T08:42:43.826Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-21</time>
+        <a href="/2022/08/21/13-Vue%E9%A1%B9%E7%9B%AE%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" class="archive-article-date">
+  	<time datetime="2022-08-21T10:49:25.960Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-21</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Hexo博客搭建过程及遇到的问题</p>
+        <p>Vue项目过程中遇到的问题</p>
 <span id="more"></span>
 
-<h2 id="博客搭建过程（hexo-github）"><a href="#博客搭建过程（hexo-github）" class="headerlink" title="博客搭建过程（hexo+github）"></a>博客搭建过程（hexo+github）</h2><h3 id="1-前期准备"><a href="#1-前期准备" class="headerlink" title="1.前期准备"></a><strong>1.前期准备</strong></h3><h4 id="1-1-注意事项"><a href="#1-1-注意事项" class="headerlink" title="1.1 注意事项"></a><strong>1.1 注意事项</strong></h4><ul>
-<li>很多命令既可以用Windows的cmd来完成，也可以使用git bash来完成，但是部分命令会有一些问题，为避免不必要的问题，建议全部使用git bash来执行</li>
-<li>hexo不同版本差别比较大，网上很多文章的配置信息都是基于2.x的，所以注意不要被误导</li>
-<li>hexo有2种_config.yml文件，一个是根目录下的全局的_config.yml，一个是各个theme下的</li>
-</ul>
-<h4 id="1-2-下载并安装node-js"><a href="#1-2-下载并安装node-js" class="headerlink" title="1.2 下载并安装node.js"></a><strong>1.2 下载并安装node.js</strong></h4><ul>
-<li>官网下载：<a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a></li>
-<li>安装与使用：见node笔记</li>
-<li>安装后验证：node -v</li>
-</ul>
-<h4 id="1-3-下载并安装git"><a href="#1-3-下载并安装git" class="headerlink" title="1.3 下载并安装git"></a><strong>1.3 下载并安装git</strong></h4><ul>
-<li>官网下载:  <a target="_blank" rel="noopener" href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></li>
-<li>安装与使用：见git笔记</li>
-<li>安装后验证：git -v</li>
-</ul>
-<h4 id="1-4-命令行安装cnpm"><a href="#1-4-命令行安装cnpm" class="headerlink" title="1.4 命令行安装cnpm"></a><strong>1.4 命令行安装cnpm</strong></h4><ul>
-<li>命令：npm install -g cnpm –registry&#x3D;&#x3D;<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a></li>
-<li>安装后验证：cnpm -v</li>
-</ul>
-<h4 id="1-5-命令行安装hexo"><a href="#1-5-命令行安装hexo" class="headerlink" title="1.5 命令行安装hexo"></a><strong>1.5 命令行安装hexo</strong></h4><ul>
-<li>命令：cnpm install -g hexo-cli</li>
-<li>安装后验证：hexo  -v</li>
-</ul>
-<h3 id="2-配置github"><a href="#2-配置github" class="headerlink" title="2.配置github"></a><strong>2.配置github</strong></h3><h4 id="2-1-在github上创建仓库"><a href="#2-1-在github上创建仓库" class="headerlink" title="2.1 在github上创建仓库"></a><strong>2.1 在github上创建仓库</strong></h4><p><strong>创建：</strong></p>
+<h2 id="1-关于“TypeError-Assignment-to-constant-variable”的问题解决方案"><a href="#1-关于“TypeError-Assignment-to-constant-variable”的问题解决方案" class="headerlink" title="1.关于“TypeError: Assignment to constant variable”的问题解决方案"></a>1.关于“TypeError: Assignment to constant variable”的问题解决方案</h2><p>在项目开发过程中，在使用变量声明时，如果不注意，可能会造成类型错误<br>比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Uncaught (in promise) TypeError: Assignment to constant variable.</span><br><span class="line">未捕获的类型错误：赋值给常量变量。</span><br></pre></td></tr></table></figure>
+
+<p><strong>原因：</strong><br>我们使用<code>const</code>定义了变量且存在初始值。 后面又给这个变量赋值，所以报错了。</p>
+<p>ES6 标准引入了新的关键字 <code>const</code> 来定义常量，<code>const</code> 与<code>let</code>都具有块级作用域：</p>
 <ul>
-<li>新建一个名为你的用户名.github.io的仓库</li>
-<li>比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 <a target="_blank" rel="noopener" href="http://test.github.io/">http://test.github.io</a> 了，是不是很方便？由此可见，每一个github账户最多只能创建一个这样可以直接使用域名访问的仓库。</li>
+<li><p>使用 <code>const </code>定义的常量，不能修改它的值，且定义的常量必须赋初值；</p>
+</li>
+<li><p><code>let</code> 定义的是变量，可以进行变量赋值操作，且不需要赋初值。</p>
+</li>
 </ul>
-<p><strong>注意：</strong></p>
+<p>这个错误就是因为我们修改了常量而引起的错误，虽然某些浏览器不报错，但是无效果！</p>
+<p><strong>解决方案</strong>：<br>将 <code>const </code>改为<code> let</code> 进行声明。</p>
+<h2 id="2-v-for和v-if一起使用时的坑"><a href="#2-v-for和v-if一起使用时的坑" class="headerlink" title="2.v-for和v-if一起使用时的坑"></a>2.v-for和v-if一起使用时的坑</h2><p>在Vue中使用<code>v-for</code>循环一个数组&#x2F;对象时，如果再使用<code>v-if</code>，那么会提示使用计算属性(能正常使用)，因为Vue中是不提倡<code>v-for</code>与<code>v-if</code>同时使用的。<br>在我的项目中也遇到了问题，不过翻看文档解决了。修改前：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;el-table-column</span><br><span class="line">    v-for=&quot;(item, index) in columns&quot;</span><br><span class="line">    :prop=&quot;item.prop&quot;</span><br><span class="line">    :key=&quot;index&quot;</span><br><span class="line">    align=&quot;center&quot;</span><br><span class="line">    :width=&quot;item.width&quot;</span><br><span class="line">    :label=&quot;item.label&quot;</span><br><span class="line">    v-if=&quot;item.show&quot;</span><br><span class="line">&gt;</span><br><span class="line">&lt;/el-table-column&gt;</span><br></pre></td></tr></table></figure>
+
+<p>编辑器提示：</p>
+<p><code>vue/no-use-v-if-with-v-for] The &#39;columns&#39; variable inside &#39;v-for&#39; directive should be replaced with a computed property that returns filtered array instead. You should not mix &#39;v-for&#39; with &#39;v-if&#39;.eslint-plugin-vue</code></p>
+<p>修改后：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;template v-for=&quot;(item, index) in columns&quot;&gt;</span><br><span class="line">    &lt;el-table-column</span><br><span class="line">        :prop=&quot;item.prop&quot;</span><br><span class="line">        :key=&quot;index&quot;</span><br><span class="line">        align=&quot;center&quot;</span><br><span class="line">        :width=&quot;item.width || &#x27;&#x27; &quot;</span><br><span class="line">        :label=&quot;item.label&quot;</span><br><span class="line">        v-if=&quot;item.show&quot;</span><br><span class="line">    &gt;</span><br><span class="line">    &lt;/el-table-column&gt;</span><br><span class="line">&lt;/template&gt;</span><br></pre></td></tr></table></figure>
+
+<p>即：使用<code>template</code>标签包裹即可，<code>v-for</code> 写在<code>template</code> 上，<code>v-if</code> 绑定在需要循环的元素之上即可</p>
+<h2 id="3-query和params区别"><a href="#3-query和params区别" class="headerlink" title="3.query和params区别"></a>3.query和params区别</h2><p><strong>query Url :localhost:8080&#x2F;#&#x2F;second?queryId&#x3D;12121&amp;queryName&#x3D;aja</strong></p>
+<p><strong>params Url:localhost:8080&#x2F;#&#x2F;second&#x2F;12121&#x2F;params</strong></p>
+<p>params只能搭配name使用不能和path一起用</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">//paramsthis.$router.push(&#123;</span><br><span class="line">    name:&#x27;about&#x27;,</span><br><span class="line">    params:&#123;</span><br><span class="line">         age:178  </span><br><span class="line">           &#125;</span><br><span class="line">                &#125;)    //query</span><br><span class="line">this.$router.push(&#123;</span><br><span class="line">   path:&#x27;/about&#x27;,</span><br><span class="line">   query:&#123;</span><br><span class="line">         age:178  </span><br><span class="line">           &#125;</span><br><span class="line">             &#125;)</span><br></pre></td></tr></table></figure>
+
+<h3 id="1-router和-route的区别"><a href="#1-router和-route的区别" class="headerlink" title="1.$router和$route的区别"></a>1.<code>$router</code>和<code>$route</code>的区别</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">//$router : 是路由操作对象，只写对象</span><br><span class="line">//$route : 路由信息对象，只读对象</span><br><span class="line"></span><br><span class="line">//操作 路由跳转</span><br><span class="line">this.$router.push(&#123;</span><br><span class="line">      name:&#x27;hello&#x27;,</span><br><span class="line">      params:&#123;</span><br><span class="line">          name:&#x27;word&#x27;,</span><br><span class="line">          age:&#x27;11&#x27;</span><br><span class="line">     &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">//读取 路由参数接收</span><br><span class="line">this.name = this.$route.params.name;</span><br><span class="line">this.age = this.$route.params.age;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-query传递参数"><a href="#2-query传递参数" class="headerlink" title="2.query传递参数"></a>2.query传递参数</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">//query传参，使用name跳转</span><br><span class="line">this.$router.push(&#123;</span><br><span class="line">    name:&#x27;second&#x27;,</span><br><span class="line">    query: &#123;</span><br><span class="line">        queryId:&#x27;20211228&#x27;,</span><br><span class="line">        queryName: &#x27;query&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">//query传参，使用path跳转</span><br><span class="line">this.$router.push(&#123;</span><br><span class="line">    path:&#x27;second&#x27;,</span><br><span class="line">    query: &#123;</span><br><span class="line">        queryId:&#x27;20180822&#x27;,</span><br><span class="line">        queryName: &#x27;query&#x27;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">//query传参接收</span><br><span class="line">this.queryName = this.$route.query.queryName;</span><br><span class="line">this.queryId = this.$route.query.queryId;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-params传递参数"><a href="#3-params传递参数" class="headerlink" title="3.params传递参数"></a>3.params传递参数</h3><p>注：使用params传参只能使用name进行引入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">//params传参 使用name</span><br><span class="line">this.$router.push(&#123;</span><br><span class="line">  name:&#x27;second&#x27;,</span><br><span class="line">  params: &#123;</span><br><span class="line">    id:&#x27;20180822&#x27;,</span><br><span class="line">     name: &#x27;query&#x27;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">//params接收参数</span><br><span class="line">this.id = this.$route.params.id ;</span><br><span class="line">this.name = this.$route.params.name ;</span><br><span class="line"></span><br><span class="line">//路由</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">path: &#x27;/second/:id/:name&#x27;,</span><br><span class="line">name: &#x27;second&#x27;,</span><br><span class="line">component: () =&gt; import(&#x27;@/view/second&#x27;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">//params传参 使用path,path传参打印不出，什么效果都没有</span><br><span class="line">this.$router.push(&#123;</span><br><span class="line">  path:&#x27;second&#x27;,</span><br><span class="line">   params: &#123;</span><br><span class="line">    id:&#x27;20180822&#x27;,</span><br><span class="line">     name: &#x27;query&#x27;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">//params接收参数</span><br><span class="line">this.id = this.$route.params.id ;</span><br><span class="line">this.name = this.$route.params.name ;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>需要注意的是：</p>
 <ol>
-<li>注册的邮箱一定要验证，否则不会成功；</li>
-<li>仓库名字必须是：username.github.io，其中username是你的用户名；</li>
-<li>仓库创建成功不会立即生效，需要过一段时间，大概10-30分钟，或者更久；</li>
-<li>创建页面如下：</li>
+<li>params是路由的一部分,必须要在路由后面添加参数名。query是拼接在url后面的参数，没有也没关系。</li>
+<li>params一旦设置在路由，params就是路由的一部分，如果这个路由有params传参，但是在跳转的时候没有传这个参数，会导致跳转失败或者页面会没有内容。</li>
 </ol>
-<p><img src="https://i0.hdslb.com/bfs/article/ca3573693ec7d4b8f30b71b7f22a2003a9bac6e8.png@942w_675h_progressive.webp" alt="img"></p>
-<p>创建成功后，默认会在你这个仓库里生成一些示例页面，以后你的网站所有代码都是放在这个仓库里啦。</p>
-<h4 id="2-2-绑定域名（这步可省略）"><a href="#2-2-绑定域名（这步可省略）" class="headerlink" title="2.2 绑定域名（这步可省略）"></a><strong>2.2 绑定域名（这步可省略）</strong></h4><p>当然，你不绑定域名肯定也是可以的，就用默认的 xxx.github.io 来访问，如果你想更个性一点，想拥有一个属于自己的域名，那也是OK的。</p>
-<p>首先你要注册一个域名，域名注册以前总是推荐去godaddy，现在觉得其实国内的阿里云也挺不错的，价格也不贵，毕竟是大公司，放心！</p>
-<p>绑定域名分2种情况：带www和不带www的。</p>
-<p>域名配置最常见有2种方式，CNAME和A记录，CNAME填写域名，A记录填写IP，由于不带www方式只能采用A记录，所以必须先ping一下你的用户名.github.io的IP，然后到你的域名DNS设置页，将A记录指向你ping出来的IP，将CNAME指向你的用户名.github.io，这样可以保证无论是否添加www都可以访问，如下：</p>
-<p><img src="https://i0.hdslb.com/bfs/article/cbcef276877a15fc1108cedf88d63ba5fd25a81f.png@756w_329h_progressive.webp" alt="img"></p>
-<p>然后到你的github项目根目录新建一个名为CNAME的文件（无后缀），里面填写你的域名，加不加www看你自己喜好，因为经测试：</p>
-<ul>
-<li>如果你填写的是没有www的，比如 mygit.me，那么无论是访问 <a target="_blank" rel="noopener" href="http://www.mygit.me/">http://www.mygit.me</a> 还是 <a target="_blank" rel="noopener" href="http://mygit.me/">http://mygit.me</a> ，都会自动跳转到 <a target="_blank" rel="noopener" href="http://mygit.me/">http://mygit.me</a></li>
-<li>如果你填写的是带www的，比如 <a target="_blank" rel="noopener" href="http://www.mygit.me/">www.mygit.me</a> ，那么无论是访问 <a target="_blank" rel="noopener" href="http://www.mygit.me/">http://www.mygit.me</a> 还是 <a target="_blank" rel="noopener" href="http://mygit.me/">http://mygit.me</a> ，都会自动跳转到 <a target="_blank" rel="noopener" href="http://www.mygit.me/">http://www.mygit.me</a></li>
-<li>如果你填写的是其它子域名，比如 abc.mygit.me，那么访问 <a target="_blank" rel="noopener" href="http://abc.mygit.me/">http://abc.mygit.me</a> 没问题，但是访问 <a target="_blank" rel="noopener" href="http://mygit.me/">http://mygit.me</a> ，不会自动跳转到 <a target="_blank" rel="noopener" href="http://abc.mygit.me/">http://abc.mygit.me</a></li>
-</ul>
-<p>另外说一句，在你绑定了新域名之后，原来的你的用户名.github.io并没有失效，而是会自动跳转到你的新域名。</p>
-<h3 id="3-配置SSH免密登录"><a href="#3-配置SSH免密登录" class="headerlink" title="3. 配置SSH免密登录"></a><strong>3. 配置SSH免密登录</strong></h3><p>为什么要配置这个呢？因为你提交代码肯定要拥有你的github权限才可以，但是直接使用用户名和密码太不安全了，所以我们使用ssh key来解决本地和服务器的连接问题。</p>
-<p><strong>操作步骤：</strong></p>
-<p>第一步：首先打开电脑文件夹，找到C:\Users\王海洋.ssh文件夹并删除</p>
-<p>第二步：在C:\Users\xxx文件夹下右键打开Git Bash Here输入命令：ssh-keygen -t rsa -C github邮件地址  生成.ssh秘钥，输入后连敲三次回车，出现下图情况代表成功</p>
-<p><img src="https://i0.hdslb.com/bfs/article/f8fb9a4ff9e0410bdbb1e4b89f34208ae2c6ecfd.jpg@942w_407h_progressive.webp" alt="img"></p>
-<p>第三步：最终生成了一个新的 C:\Users\王海洋.ssh文件夹，打开这个文件夹，找到.ssh\id_rsa.pub文件，记事本打开并复制里面的内容</p>
-<p>第四步：打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key，把复制的内容粘贴进去，title随便填，保存即可，我们的公钥就添加成功了，设置好如下图：</p>
-<p><img src="https://i0.hdslb.com/bfs/article/cae65261511e4bf7e4ea0e7838a5bfc5f3560d20.png@942w_509h_progressive.webp" alt="img"></p>
-<p>第五步：检测是否设置成功：</p>
-<p>输入命令：  $ ssh -T <a href="mailto:&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#x75;&#x62;&#x2e;&#99;&#111;&#109;">&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#104;&#x75;&#x62;&#x2e;&#99;&#111;&#109;</a> # 注意邮箱地址不用改</p>
-<p>如果提示Are you sure you want to continue connecting (yes&#x2F;no)?，输入yes，然后会看到：</p>
-<p>Hi liuxianan! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
-<p>看到这个信息说明SSH已配置成功！</p>
-<p>第六步：此时你还需要配置：</p>
-<p>$ git config –global user.name “liuxianan”&#x2F;&#x2F; 你的github用户名，非昵称$ git config –global user.email  “<a href="mailto:&#x78;&#120;&#x78;&#64;&#113;&#113;&#46;&#x63;&#111;&#109;">&#x78;&#120;&#x78;&#64;&#113;&#113;&#46;&#x63;&#111;&#109;</a>“&#x2F;&#x2F; 填写你的github注册邮箱</p>
-<h3 id="4-使用-hexo-搭建博客"><a href="#4-使用-hexo-搭建博客" class="headerlink" title="4.使用 hexo 搭建博客"></a><strong>4.使用 hexo 搭建博客</strong></h3><h4 id="4-1-初始化"><a href="#4-1-初始化" class="headerlink" title="4.1 初始化"></a><strong>4.1 初始化</strong></h4><p>第一步：在电脑的某个地方新建一个名为hexo的文件夹（名字可以随便取），比如我的是E:\xpzsData\hexocode，由于这个文件夹将来就作为你存放代码的地方，所以最好不要随便放</p>
-<p>第二步：在E:\xpzsData\hexocode文件夹下右键打开 Git Bash Here，输入hexo init 初始化</p>
-<ul>
-<li>hexo会自动下载一些文件到这个目录，包括node_modules，目录结构如下图：</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/a7f5fc12b8e28b751c024e1d0f760de338e32d81.png@942w_290h_progressive.webp" alt="img"></p>
-<p>第三步：执行以下命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的：</p>
-<p><img src="https://i0.hdslb.com/bfs/article/f8d1a66cf00c3dfabb1bff69c531398ef0a33679.png@942w_56h_progressive.webp" alt="img"></p>
-<p>第四步：hexo s 是开启本地预览服务，打开浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 即可看到内容，很多人会碰到浏览器一直在转圈但是就是加载不出来的问题，一般情况下是因为端口占用的缘故，因为4000这个端口太常见了，解决端口冲突问题请参考这篇文章<a target="_blank" rel="noopener" href="https://www.runoob.com/w3cnote/windows-finds-port-usage.html">https://www.runoob.com/w3cnote/windows-finds-port-usage.html</a></p>
-<ul>
-<li>到这里初始化就完成了</li>
-</ul>
-<h4 id="4-2-将博客部署到-github-个人主页上"><a href="#4-2-将博客部署到-github-个人主页上" class="headerlink" title="4.2 将博客部署到 github 个人主页上"></a><strong>4.2 将博客部署到 github 个人主页上</strong></h4><p>第一步：在E:\xpzsData\hexocode目录下安装 hexo-deployer-git 插件</p>
-<ul>
-<li>安装命令： npm install hexo-deployer-git –save  </li>
-<li>必须安装，否则执行hexo d 的话会报如下错误：</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/f920d62b355a1a62bb9f6f37571edfb936fc03b2.png@815w_53h_progressive.webp" alt="img"></p>
-<p>第二步：编辑E:\xpzsData\hexocode目录下的 _config.yml 文件, 在文件末尾添加如下内容：</p>
-<p><img src="https://i0.hdslb.com/bfs/article/9055b0cce324c115ecb9128c391d6239cb4ccec0.png@942w_153h_progressive.webp" alt="img"></p>
-<ul>
-<li>注意：其中 repo 中的内容即为 github 个人主页链接地址，具体看下图：</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/9cc1855324f9f968aa56d8a94a913475b3bc1d70.png@942w_437h_progressive.webp" alt="img"></p>
-<p>第三步：在E:\xpzsData\hexocode目录下, 输入命令：hexo d 将本地 blog 推送到 github仓库, 也可能需要输入 username &amp; pwd。</p>
-<ul>
-<li>推送成功后, 在浏览器中输入对应域名, 即可访问 <a target="_blank" rel="noopener" href="https://reclusew.github.io/">https://reclusew.github.io/</a></li>
-</ul>
-<h3 id="5-更换主题"><a href="#5-更换主题" class="headerlink" title="5. 更换主题"></a><strong>5. 更换主题</strong></h3><h4 id="5-1-寻找主题"><a href="#5-1-寻找主题" class="headerlink" title="5.1 寻找主题"></a><strong>5.1 寻找主题</strong></h4><ul>
-<li>既然默认主题很丑，那我们别的不做，首先来替换一个好看点的主题。</li>
-<li>这是hexo官网：<a target="_blank" rel="noopener" href="https://hexo.io/themes/%EF%BC%8C%E5%8F%AF%E5%9C%A8%E9%87%8C%E9%9D%A2%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98%EF%BC%8C%E7%82%B9%E5%87%BB%E4%B8%BB%E9%A2%98%E5%90%8D%E5%8D%B3%E5%8F%AF%E8%B7%B3%E8%BD%AC%E5%88%B0github%E4%B8%8A%EF%BC%8C%E4%B9%9F%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E5%9C%A8github%E4%B8%8A%E6%90%9C%E7%B4%A2%E4%B8%BB%E9%A2%98">https://hexo.io/themes/，可在里面下载主题，点击主题名即可跳转到github上，也可以直接在github上搜索主题</a></li>
-</ul>
-<h4 id="5-2-下载主题"><a href="#5-2-下载主题" class="headerlink" title="5.2 下载主题"></a><strong>5.2 下载主题</strong></h4><p>第一步：Git Bash Here中先cd到E:\xpzsData\hexocode目录</p>
-<p>第二步：再输入命令 $ git clone 主题http链接  themes&#x2F;主题名称</p>
-<p><img src="https://i0.hdslb.com/bfs/article/dc6cf704d5d468a2f02dcd044fc4a0b4daf78960.png@942w_507h_progressive.webp" alt="img"></p>
-<p>注意：</p>
-<ul>
-<li>E:\xpzsData\hexocode目录下的 theme 文件夹下存放的就是博客的主题，主题是否下载成功可到该目录下查看：</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/075cf0ecdb17fd480e0a705242cf9b6cf28510ee.png@942w_225h_progressive.webp" alt="img"></p>
-<h4 id="5-3-使用主题"><a href="#5-3-使用主题" class="headerlink" title="5.3 使用主题"></a><strong>5.3 使用主题</strong></h4><ul>
-<li>打开E:\xpzsData\hexocode目录下的_config.yml文件，在里面找到theme: landscape改为theme: blinkfox  （blinkfox为我们要使用的主题名）,然后重新执行hexo g来重新生成。</li>
-<li>如果出现一些莫名其妙的问题，可以先执行hexo clean来清理一下public的内容，然后再执行hexo g 和 hexo s 重新生成和发布。</li>
-<li>再次在浏览器中输入对应域名, 即可发现主题已更换</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/b122a24f4e848f12e98c105e30e57fdc770d6690.png@942w_251h_progressive.webp" alt="img"></p>
-<h4 id="5-4-修改主题内容"><a href="#5-4-修改主题内容" class="headerlink" title="5.4 修改主题内容"></a><strong>5.4 修改主题内容</strong></h4><p>在这里我使用的是blinkfox主题，后期相关修改参考这个主题文档</p>
-<p>文档链接：<a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md</a></p>
-<ul>
-<li>注意：一些非md文件可以把他们放到source文件夹下，这里的所有文件都会原样复制（除了md文件）到public目录的</li>
-<li>大致在下图的文件夹里面修改文件，记得修改后的文件需要关闭后，再在hexocode根目录右键打开Git Bash Here，输入两个命令：hexo g 重新生成，hexo s 开启本地预览服务,等修改的符合要求了，再输入 hexo d 推送到github仓库即可</li>
-<li>这样就可以输入网址查看更改后的内容了</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/426b2c5a296d531dcae228493e6d63868179f132.png@942w_353h_progressive.webp" alt="img"></p>
-<p>文档上没有提及的修改：</p>
-<ul>
-<li>返回按钮样式修改：在主题下面的 blinkfox\layout_partial 文件夹中的 back-top.esj 文件中修改</li>
-</ul>
-<p>特别注意：</p>
-<ul>
-<li>修改生成的默认页面信息，要到主题下面的_config.yml文件里面去改，而不是根目录下的_config.yml文件</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/312648b8eabe0b58395774e2742277f9690a94c6.png@942w_288h_progressive.webp" alt="img"></p>
-<ul>
-<li>要把根目录下的_config.yml文件中的这些信息替换成自己的和设置中文</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/9545db7dea8f6d676b15ebe2d5542fec221d22ca.png@942w_191h_progressive.webp" alt="img"></p>
-<h4 id="5-5-blinkfox主题的相关配置问题"><a href="#5-5-blinkfox主题的相关配置问题" class="headerlink" title="5.5 blinkfox主题的相关配置问题"></a><strong>5.5 blinkfox主题的相关配置问题</strong></h4><p>配置音乐播放器：使用网易云音乐id不行，这里用的是QQ音乐</p>
-<p>配置留言功能（利用Valine）：</p>
-<ul>
-<li>我们的评论系统其实是放在Leancloud上的，因此首先需要去注册一个账号</li>
-<li>注册完以后需要创建一个应用，名字可以随便起，然后 进入应用-&gt;设置-&gt;应用key，获取你的appid 和 appkey，复制到主题下面的 _config.yml 文件里面搜索 valine，填入appid 和 appkey</li>
-<li>最后！记得在Leancloud -&gt; 设置 -&gt; 安全中心 -&gt; Web 安全域名 把你的域名加进去就可以了</li>
-<li>主题页面显示的内容在主题下面的 layout 文件夹中的 contact.ejs 文件里面更改</li>
-</ul>
-<h3 id="6-利用Typora软件来写博客"><a href="#6-利用Typora软件来写博客" class="headerlink" title="6.利用Typora软件来写博客"></a><strong>6.利用Typora软件来写博客</strong></h3><h4 id="6-1-Typora介绍"><a href="#6-1-Typora介绍" class="headerlink" title="6.1 Typora介绍"></a><strong>6.1 Typora介绍</strong></h4><ul>
-<li>Typora–一款简单高效的Markdown编辑器，保存后直接为md格式，Markdown中点击导入就可以。</li>
-<li>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式，其目标是实现易读易写，说人话就是删减版的HTML语言</li>
-<li>Markdown教程：<a target="_blank" rel="noopener" href="https://www.runoob.com/markdown/md-tutorial.html">https://www.runoob.com/markdown/md-tutorial.html</a></li>
-</ul>
-<h4 id="6-2-安装Typora"><a href="#6-2-安装Typora" class="headerlink" title="6.2 安装Typora"></a><strong>6.2 安装Typora</strong></h4><p>官网：<a target="_blank" rel="noopener" href="https://www.typora.io/#windows">https://www.typora.io/#windows</a></p>
-<h4 id="6-3-写博客的步骤"><a href="#6-3-写博客的步骤" class="headerlink" title="6.3  写博客的步骤"></a><strong>6.3  写博客的步骤</strong></h4><p>第一步：创建.md文件</p>
-<ul>
-<li>方法1：定位到我们的hexo根目录，Git Bash Here 中执行命令：  hexo new ‘my-first-blog’         hexo会帮我们在E:\xpzsData\hexocode\source_posts 下生成相关.md文件，用这个命令的好处是帮我们自动生成了时间，方法1默认生成如下内容：</li>
-</ul>
-<p><img src="https://i0.hdslb.com/bfs/article/0d70f8f2da7bf1cb8d0bf4f12b3b9fec5e932a73.png@942w_113h_progressive.webp" alt="img"></p>
-<ul>
-<li>方法2：当然你也可以直接自己打开E:\xpzsData\hexocode\source_posts 目录新建.md文件</li>
-</ul>
-<p>第二步：编写并保存</p>
-<p>我们只需要用typora打开这个文件就可以开始写博客了，写完后Ctrl+S 保存关闭即可</p>
-<p>第三步：清理然后再生成一下，生成后推送到远程仓库即可，hexo根目录下右键Git Bash Here 中依次输入如下命令：</p>
-<ol>
-<li>hexo clean</li>
-<li>hexo g</li>
-<li>hexo d</li>
+<p>如果路由后面没有 &#x2F;:id&#x2F;:name，地址栏没有参数,刷新后后台就打印不出来，为空。</p>
+<p>URL:localhost:8080&#x2F;#&#x2F;second</p>
+<p>因此我们不可能让用户不要刷新，所以我们必须在路由后面加上 &#x2F;:id&#x2F;:name</p>
+<p>3.总结 </p>
+<p>传参可以使用params和query两种方式。 使用params传参只能用name来引入路由，即push里面只能是name:’xxxx’,不能是path:’&#x2F;xxx’,因为params只能用name来引入路由，如果这里写成了path，接收参数页面会是undefined！！！。 使用query传参使用path来引入路由。 params是路由的一部分,必须要在路由后面添加参数名。query是拼接在url后面的参数，没有也没关系。 二者还有点区别，直白的来说query相当于get请求，页面跳转的时候，可以在地址栏看到请求参数，而params相当于post请求，参数不会再地址栏中显示。</p>
+<h2 id="4-mapGetters等的用法"><a href="#4-mapGetters等的用法" class="headerlink" title="4.mapGetters等的用法"></a>4.<code>mapGetters</code>等的用法</h2><h3 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h3><p>   介绍**<code>...mapGetters</code>,<code>mapGetters</code>,<code>...mapState</code>,<code>mapState</code>**这个四个东西的作用是在组件中的computed里面去获取vuex中的store中的state和getters,然后在组件中使用。</p>
+<h3 id="2-看代码"><a href="#2-看代码" class="headerlink" title="2.看代码"></a>2.看代码</h3><ol>
+<li><code>...mapGetters</code>和<code>mapGetters</code>： 这两个东西用在computed里面，常规的用法如下图所示：</li>
 </ol>
-<p>补充：hexo new page ‘postName’命令和hexo new ‘postName’的区别？</p>
-<ul>
-<li>hexo new page ‘My-second-blog’最终部署时生成：hexo\public\my-second-blog\index.html，但是它不会作为文章出现在博文目录。</li>
-</ul>
-<h4 id="6-4-Typora快捷键"><a href="#6-4-Typora快捷键" class="headerlink" title="6.4  Typora快捷键"></a><strong>6.4  Typora快捷键</strong></h4><p>Typora中只要记住一些基本的快捷键就可以了，所有功能软件里面都有对应按钮，这点不用慌。</p>
-<p>快捷键文章：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_39533052/article/details/111115263">https://blog.csdn.net/weixin_39533052/article/details/111115263</a></p>
-<h4 id="6-5-注意：所使用的主题的文章-Front-matter-语法"><a href="#6-5-注意：所使用的主题的文章-Front-matter-语法" class="headerlink" title="6.5  注意：所使用的主题的文章 Front-matter 语法"></a><strong>6.5  注意：所使用的主题的文章 Front-matter 语法</strong></h4><p>依据使用的不同主题，一些文章功能所使用的语法可能不一样，例如写博客时给文章添加标签的语法等等，这些都要看所使用的主题的文档，例如我们这里使用的是 blinkfox 主题，打开主题文档，往下翻找到”  文章 Front-matter 介绍 “即可。</p>
-<p>blinkfox主题文档：<a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md#%E6%96%87%E7%AB%A0-front-matter-%E4%BB%8B%E7%BB%8D">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md#%E6%96%87%E7%AB%A0-front-matter-%E4%BB%8B%E7%BB%8D</a></p>
-<p><img src="https://i0.hdslb.com/bfs/article/0af1d0ecbd93998845cc275f669efdb2fa30ee8e.png@942w_1037h_progressive.webp" alt="img"></p>
-<p><strong>示例：</strong></p>
-<p><img src="https://i0.hdslb.com/bfs/article/ad0a41f6a4e3350f6ade4d81c049a8e6974e8d15.png@942w_1184h_progressive.webp" alt="img"></p>
-<h4 id="6-6-YAML语法（了解）"><a href="#6-6-YAML语法（了解）" class="headerlink" title="6.6 YAML语法（了解）"></a><strong>6.6 YAML语法（了解）</strong></h4><p>像在typora中添加tags时，可以直接用数组的写法，也可以使用YAML语法，如下：</p>
-<p><img src="https://i0.hdslb.com/bfs/article/564b63dd8bfd17539a3b0d7f1992e27b6c5ee77d.png@942w_263h_progressive.webp" alt="img"></p>
-<p>YAML教程链接：<a target="_blank" rel="noopener" href="https://www.runoob.com/w3cnote/yaml-intro.html">https://www.runoob.com/w3cnote/yaml-intro.html</a></p>
-<h3 id="7-如何向hexo博客中插入图片"><a href="#7-如何向hexo博客中插入图片" class="headerlink" title="7.如何向hexo博客中插入图片"></a><strong>7.如何向hexo博客中插入图片</strong></h3><h4 id="7-1-使用相对路径的方式"><a href="#7-1-使用相对路径的方式" class="headerlink" title="7.1 使用相对路径的方式"></a><strong>7.1 使用相对路径的方式</strong></h4><p>众所周知，在md文件中插入图片的语法为<code>![]()</code>。</p>
-<p>其中方括号是图片描述，圆括号是图片路径。</p>
-<p>一般来说有三种图片路径，分别是相对路径，绝对路径和网络路径。</p>
-<p>所谓的网络路径就是直接引用网上的图片，直接复制图片地址，放在圆括号中就完事了。</p>
-<p>这种方式十分的方便，但是也存在一定的问题：</p>
-<ul>
-<li>图片失效导致无法加载；</li>
-<li>打开网页后要再请求加载图片；</li>
-<li>原网站限制，如微信公众号的图片会变得不可见等。</li>
-</ul>
-<p>这种方式算是有利有弊。</p>
-<p>绝对路径是图片在计算机中的绝对位置，相对路径是相对于当前文件的路径。</p>
-<p>由于我们的博客是要部署在网站上，部署后会生成新的文件目录，所以我们选择使用相对路径的方式。</p>
-<p>在hexo中使用文章资源文件夹需要在config.yaml文件中更改一下配置：</p>
-<p>post_asset_folder: true</p>
-<p>当该配置被应用后，使用hexo new命令创建新文章时，会生成相同名字的文件夹，也就是文章资源文件夹。</p>
-<p><img src="https://i0.hdslb.com/bfs/article/a07fded57b1cdeceecc21d68c3703b2cb002f088.png@942w_108h_progressive.webp" alt="img"></p>
-<p>由于项目会生成新的文件目录，同时会解析Markdown中的图片路径，会导致一个问题。</p>
-<p>如在一个文件目录下，博客名为1.md，相应的存在一个1文件夹存放图片image.jpg。</p>
-<p>在Typora编辑器中，普通的md文件使用<code>![](1/image.jpg)</code>能在编辑器中正常显示图片。</p>
-<p>在hexo中，按理说应该是使用<code>![](image.jpg)</code>，但网页中却无法正常显示。</p>
-<p>此时应该使用这样的方式来引入图片：</p>
-
-
-<p>虽然可以正常引用图片了，但是这种引用图片的方式只有一句话能形容，wtf。</p>
-<h4 id="7-2-hexo-renderer-marked插件的安装与配置"><a href="#7-2-hexo-renderer-marked插件的安装与配置" class="headerlink" title="7.2 hexo-renderer-marked插件的安装与配置"></a><strong>7.2 hexo-renderer-marked插件的安装与配置</strong></h4><p>插件hexo-renderer-marked解决了这个问题</p>
-<p>安装： npm install hexo-renderer-marked –save  ，之后在config.yaml中更改配置即可</p>
-<p>之后就可以在使用<code> ![](image.jpg)</code>  的方式愉快的插入图片了。</p>
-<p>我们做了这么多都是为了方便，那么为什么不再方便一点呢。</p>
-<h4 id="7-3-hexo-renderer-marked插件与Typora的完美结合"><a href="#7-3-hexo-renderer-marked插件与Typora的完美结合" class="headerlink" title="7.3 hexo-renderer-marked插件与Typora的完美结合"></a><strong>7.3 hexo-renderer-marked插件与Typora的完美结合</strong></h4><p>如果图片数量众多的话，一张一张的放很影响效率。但是不用怕，我们有很方便的解决方法。</p>
-<p>Typora是我非常喜欢的Markdown文本编辑器，在之前的文章中也介绍过一点。</p>
-<p>Typora对于插入图片的支持做得非常好，在文件-&gt;偏好设置或者直接&lt;C-,&gt;进入设置。</p>
-<p><strong>复制网络路径的图片：</strong></p>
-<p>使用该配置后，可以直接复制网页中的图片地址，粘贴到Typora中后，会直接复制该图片到文章资源文件夹，同时自动更改路径。</p>
-<p>如复制网络路径的图片https:&#x2F;&#x2F;…..&#x2F;image.jpg粘贴到Typora中叫文章名的文章后，图片会自动变为<code>![](文章名/image.jpg)</code>。</p>
-<p>但我们知道部署后，文件路径是不同的，所以当我们插入完所有的图片后，我们还需要删除每个图片路径中的文件名&#x2F;。不慌，也很简单。</p>
-<p>在Typora编辑器中，使用<C-f>快捷键，将所有的文章名&#x2F;替换为空即可删除。</p>
-<p>然后再将博客上传，图片就会随着文章一起打包。在网页中就可以看到正常显示的图片，大功告成。</p>
-<h3 id="8-问题及报错解决"><a href="#8-问题及报错解决" class="headerlink" title="8.问题及报错解决"></a>8.问题及报错解决</h3><h4 id="8-1-error：spawn-failed错误"><a href="#8-1-error：spawn-failed错误" class="headerlink" title="8.1 error：spawn failed错误"></a>8.1 error：spawn failed错误</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">FATAL &#123;</span><br><span class="line">  err: Error: Spawn failed</span><br><span class="line">      at ChildProcess.&lt;anonymous&gt; (F:\Blog\node_modules\hexo-util\lib\spawn.js:51:21)</span><br><span class="line">      at ChildProcess.emit (events.js:400:28)</span><br><span class="line">      at ChildProcess.cp.emit (F:\Blog\node_modules\cross-spawn\lib\enoent.js:34:29)</span><br><span class="line">      at Process.ChildProcess._handle.onexit (internal/child_process.js:282:12) &#123;</span><br><span class="line">    code: 128</span><br><span class="line">  &#125;</span><br><span class="line">&#125; Something&#x27;s wrong. Maybe you can find the solution here: %s https://hexo.io/docs/troubleshooting.html</span><br></pre></td></tr></table></figure>
-
-<p>1.进入hexo根目录<br>2.直接把箭头指向的<code>.deploy_git</code>和<code>public</code>直接删除！</p>
-<p>3.然后，依次执行：<code>hexo clean</code>  <code>hexo g</code>  <code>hexo d</code></p>
-<p>还有可能就是没有连接上github，那就是网络的问题了。可以试试ping一下github,再重新部署。</p>
-<p><strong>参考：</strong></p>
-<p>1：<a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md</a></p>
-<p>2：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html</a></p>
-<p>3：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/f72aaad7b852">https://www.jianshu.com/p/f72aaad7b852</a></p>
-<p>4:   <a target="_blank" rel="noopener" href="https://www.bilibili.com/read/cv12633102">https://www.bilibili.com/read/cv12633102</a></p>
-<p>5:   <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_43795348/article/details/105770387/">https://blog.csdn.net/qq_43795348/article/details/105770387/</a></p>
+<p>​    (1)首先是我的store&#x2F;index.js:</p>
+<p><img src="https://img-blog.csdnimg.cn/20200928161722845.png" alt="img"></p>
+<p>(2)接下来是**<code>...mapGetters</code>**的使用:</p>
+<p><img src="https://img-blog.csdnimg.cn/20200928161838818.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x6YzI2NDQ0ODE3ODk=,size_16,color_FFFFFF,t_70" alt="img"></p>
+<p>(3)最后是<strong>mapGetters</strong>的使用:</p>
+<p><img src="https://img-blog.csdnimg.cn/20200928162031841.png" alt="img"></p>
+<p>总结：**…mapGetters<strong>和</strong>mapGetters**的区别在于，前者可以再自定义computed的其他属性，而后者已经把computed写死了，只能调用store&#x2F;getters中的函数。</p>
+<p><strong>2. …mapState和mapState：</strong> 这两个也是用在computed中，。请看下图用法:</p>
+<p>​    (1) 首先是 <strong>…mapState</strong>的用法<strong>，</strong>store&#x2F;index.js和上面的一样。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200928162545589.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x6YzI2NDQ0ODE3ODk=,size_16,color_FFFFFF,t_70" alt="img"></p>
+<p> (2)然后是<strong>mapState</strong>的用法:</p>
+<p><img src="https://img-blog.csdnimg.cn/20200928162629793.png" alt="img"></p>
+<p>总结: <strong>…mapState和mapState</strong>的区别也是和上面那对一样的，这里不赘述。</p>
+<p>另外可参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/chenjie9230/article/details/108883055">https://blog.csdn.net/chenjie9230/article/details/108883055</a></p>
+<h2 id="5-关于TypeError-Cannot-read-properties-of-undefined-reading-‘filter’"><a href="#5-关于TypeError-Cannot-read-properties-of-undefined-reading-‘filter’" class="headerlink" title="5.关于TypeError: Cannot read properties of undefined (reading ‘filter’)"></a>5.关于TypeError: Cannot read properties of undefined (reading ‘filter’)</h2><p>一、若报错的undefinde的属性为对象或者数组的api，</p>
+<p>　　1.解决方法是在对象&#x2F;数组后面加上 ||[ ] 或者 ||{ } 兜底，这样渲染的时候就不会报错了</p>
+<p>二、若报错的undefined的属性为自定义属性，则可以使用以下几种方法</p>
+<p>　　1.如果数据是在data里面定义的，最笨的方法，把相应数据结构在data写出来（对应的值为空对象、数组） </p>
+<p>　　2.父级套v-if，数据没有返回时，节点直接不生成，数据返回，节点生成。（if判断的开关就用报错那个属性）</p>
+<p>　　3.用&amp;&amp;或者if()判断异步数据已返回，</p>
+<p>三、发ajax请求，数据还没回来，却开始渲染请求来的数据，肯定报undefined，为什么有时候又不影响你页面展示？因为请求的数据经过等待肯定回来了，但是控制台上的undefined无法解决。</p>
 
       
 
@@ -423,7 +255,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">vue</a>
         		</li>
       		
 		</ul>
@@ -479,7 +311,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/08/21/12-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/08/21/13-Vue%E9%A1%B9%E7%9B%AE%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -493,18 +325,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2022/08/21/13-Vue%E9%A1%B9%E7%9B%AE%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          问题汇总——Vue项目
-        
-      </div>
-    </a>
   
-  
-    <a href="/2022/08/21/11-Vue2%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">学习笔记——vue项目</div>
+    <a href="/2022/08/21/12-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">问题汇总——Hexo博客</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -531,7 +354,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%EF%BC%88hexo-github%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">博客搭建过程（hexo+github）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%89%8D%E6%9C%9F%E5%87%86%E5%A4%87"><span class="toc-number">1.1.</span> <span class="toc-text">1.前期准备</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1 注意事项</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2-%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85node-js"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.2 下载并安装node.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85git"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.3 下载并安装git</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-4-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%89%E8%A3%85cnpm"><span class="toc-number">1.1.4.</span> <span class="toc-text">1.4 命令行安装cnpm</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-5-%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%89%E8%A3%85hexo"><span class="toc-number">1.1.5.</span> <span class="toc-text">1.5 命令行安装hexo</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E9%85%8D%E7%BD%AEgithub"><span class="toc-number">1.2.</span> <span class="toc-text">2.配置github</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-%E5%9C%A8github%E4%B8%8A%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="toc-number">1.2.1.</span> <span class="toc-text">2.1 在github上创建仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D%EF%BC%88%E8%BF%99%E6%AD%A5%E5%8F%AF%E7%9C%81%E7%95%A5%EF%BC%89"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.2 绑定域名（这步可省略）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E9%85%8D%E7%BD%AESSH%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95"><span class="toc-number">1.3.</span> <span class="toc-text">3. 配置SSH免密登录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E4%BD%BF%E7%94%A8-hexo-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.4.</span> <span class="toc-text">4.使用 hexo 搭建博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-number">1.4.1.</span> <span class="toc-text">4.1 初始化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-2-%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0-github-%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E4%B8%8A"><span class="toc-number">1.4.2.</span> <span class="toc-text">4.2 将博客部署到 github 个人主页上</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="toc-number">1.5.</span> <span class="toc-text">5. 更换主题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#5-1-%E5%AF%BB%E6%89%BE%E4%B8%BB%E9%A2%98"><span class="toc-number">1.5.1.</span> <span class="toc-text">5.1 寻找主题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-2-%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98"><span class="toc-number">1.5.2.</span> <span class="toc-text">5.2 下载主题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-3-%E4%BD%BF%E7%94%A8%E4%B8%BB%E9%A2%98"><span class="toc-number">1.5.3.</span> <span class="toc-text">5.3 使用主题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-4-%E4%BF%AE%E6%94%B9%E4%B8%BB%E9%A2%98%E5%86%85%E5%AE%B9"><span class="toc-number">1.5.4.</span> <span class="toc-text">5.4 修改主题内容</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#5-5-blinkfox%E4%B8%BB%E9%A2%98%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98"><span class="toc-number">1.5.5.</span> <span class="toc-text">5.5 blinkfox主题的相关配置问题</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E5%88%A9%E7%94%A8Typora%E8%BD%AF%E4%BB%B6%E6%9D%A5%E5%86%99%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.6.</span> <span class="toc-text">6.利用Typora软件来写博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#6-1-Typora%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.6.1.</span> <span class="toc-text">6.1 Typora介绍</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-2-%E5%AE%89%E8%A3%85Typora"><span class="toc-number">1.6.2.</span> <span class="toc-text">6.2 安装Typora</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-3-%E5%86%99%E5%8D%9A%E5%AE%A2%E7%9A%84%E6%AD%A5%E9%AA%A4"><span class="toc-number">1.6.3.</span> <span class="toc-text">6.3  写博客的步骤</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-4-Typora%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="toc-number">1.6.4.</span> <span class="toc-text">6.4  Typora快捷键</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-5-%E6%B3%A8%E6%84%8F%EF%BC%9A%E6%89%80%E4%BD%BF%E7%94%A8%E7%9A%84%E4%B8%BB%E9%A2%98%E7%9A%84%E6%96%87%E7%AB%A0-Front-matter-%E8%AF%AD%E6%B3%95"><span class="toc-number">1.6.5.</span> <span class="toc-text">6.5  注意：所使用的主题的文章 Front-matter 语法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#6-6-YAML%E8%AF%AD%E6%B3%95%EF%BC%88%E4%BA%86%E8%A7%A3%EF%BC%89"><span class="toc-number">1.6.6.</span> <span class="toc-text">6.6 YAML语法（了解）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E5%A6%82%E4%BD%95%E5%90%91hexo%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="toc-number">1.7.</span> <span class="toc-text">7.如何向hexo博客中插入图片</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#7-1-%E4%BD%BF%E7%94%A8%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="toc-number">1.7.1.</span> <span class="toc-text">7.1 使用相对路径的方式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-2-hexo-renderer-marked%E6%8F%92%E4%BB%B6%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE"><span class="toc-number">1.7.2.</span> <span class="toc-text">7.2 hexo-renderer-marked插件的安装与配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#7-3-hexo-renderer-marked%E6%8F%92%E4%BB%B6%E4%B8%8ETypora%E7%9A%84%E5%AE%8C%E7%BE%8E%E7%BB%93%E5%90%88"><span class="toc-number">1.7.3.</span> <span class="toc-text">7.3 hexo-renderer-marked插件与Typora的完美结合</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-%E9%97%AE%E9%A2%98%E5%8F%8A%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3"><span class="toc-number">1.8.</span> <span class="toc-text">8.问题及报错解决</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#8-1-error%EF%BC%9Aspawn-failed%E9%94%99%E8%AF%AF"><span class="toc-number">1.8.1.</span> <span class="toc-text">8.1 error：spawn failed错误</span></a></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%85%B3%E4%BA%8E%E2%80%9CTypeError-Assignment-to-constant-variable%E2%80%9D%E7%9A%84%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-number">1.</span> <span class="toc-text">1.关于“TypeError: Assignment to constant variable”的问题解决方案</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-v-for%E5%92%8Cv-if%E4%B8%80%E8%B5%B7%E4%BD%BF%E7%94%A8%E6%97%B6%E7%9A%84%E5%9D%91"><span class="toc-number">2.</span> <span class="toc-text">2.v-for和v-if一起使用时的坑</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-query%E5%92%8Cparams%E5%8C%BA%E5%88%AB"><span class="toc-number">3.</span> <span class="toc-text">3.query和params区别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-router%E5%92%8C-route%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-number">3.1.</span> <span class="toc-text">1.$router和$route的区别</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-query%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0"><span class="toc-number">3.2.</span> <span class="toc-text">2.query传递参数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-params%E4%BC%A0%E9%80%92%E5%8F%82%E6%95%B0"><span class="toc-number">3.3.</span> <span class="toc-text">3.params传递参数</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-mapGetters%E7%AD%89%E7%9A%84%E7%94%A8%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">4.mapGetters等的用法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E7%AE%80%E4%BB%8B"><span class="toc-number">4.1.</span> <span class="toc-text">1.简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E7%9C%8B%E4%BB%A3%E7%A0%81"><span class="toc-number">4.2.</span> <span class="toc-text">2.看代码</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-%E5%85%B3%E4%BA%8ETypeError-Cannot-read-properties-of-undefined-reading-%E2%80%98filter%E2%80%99"><span class="toc-number">5.</span> <span class="toc-text">5.关于TypeError: Cannot read properties of undefined (reading ‘filter’)</span></a></li></ol>
                     </div>
                 </span>
             </div>
